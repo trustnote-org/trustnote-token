@@ -1,0 +1,1 @@
+*/20 * * * * cd trustnote-witness; node check_daemon.js 1>>~/.config/trustnote-witness/check_daemon.log 2>>~/.config/trustnote-witness/check_daemon.err

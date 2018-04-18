@@ -1,0 +1,27 @@
+{
+  "name": "trustnote-token",
+  "description": "TrustNote witness",
+  "author": "Trustnote",
+  "version": "0.1.0",
+  "main": "start.js",
+  "keywords": [
+    "witness",
+    "trustnote"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/trustnote/trustnote-witness.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/trustnote/trustnote-witness/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "trustnote-common": "git+https://github.com/trustnote/trustnote-common.git",
+    "trustnote-headless": "git+https://github.com/trustnote/trustnote-headless.git"
+  }
+}
