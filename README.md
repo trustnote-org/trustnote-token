@@ -1,4 +1,4 @@
-在TrustNote 公链上发行Token
+如何在TrustNote 公链发行Token详细教程
 ===============================
 
 以下教程在Ubuntu 16.04、OSX 10.13 上测试通过，根据以下操作指引，开发者可以快速地在TrustNote测试链上发行自己的Token。
