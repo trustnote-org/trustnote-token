@@ -25,7 +25,7 @@ node -v
 ### 下载示例代码
 
 ```bash
-git clone https://github.com/llcds/trustnote-token.git
+git clone https://github.com/trustnote/trustnote-token.git
 ```
 ### 安装 node 依赖包
 ```bash
