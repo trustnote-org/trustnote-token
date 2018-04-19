@@ -87,7 +87,7 @@ node start.js
  用文本编辑器打开 `transfer_asset.js`，将 `DJw4edxgaSbt7VGTsmsadmRdYJ+Vvz1Hrhy+JGrAyiA=` 替换成 `asset.json` 中的TokenId，也可以将转账金额更换为另外的金额，以便查看。
 
  2. 执行转账  
- 在命令行输入 `node transfer_asset.js`，遇到需要输入参数的地方，按Enter键即可。可以到https://testexplorer.trustnote.org/#LDFEZ5TWE4XW4NUAUQHCMEPEQV7NAX6X 测试网络浏览器查看转账的情况
+ 在命令行输入 `node transfer_asset.js`，遇到需要输入参数的地方，按Enter键即可。代码里默认是转到到 `LDFEZ5TWE4XW4NUAUQHCMEPEQV7NAX6X` ，可以到https://testexplorer.trustnote.org/detail#LDFEZ5TWE4XW4NUAUQHCMEPEQV7NAX6X 测试网络浏览器查看转账的情况.
 
 ###    查询余额
 打开测试浏览器地址，https://testexplorer.trustnote.org ，在查询框中输入`asset.json`中的TokenId 即可进行查询。
