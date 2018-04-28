@@ -73,13 +73,13 @@ node start.js
 3：点击 `执行` 领TTT。
 
 
-###    发行Token
+###   设置Token属性
 1. 设置参数  
  用文本编辑器打开 `create_asset.js`，将第 13 行的 100000 修改为需要的发行量后保存。
 2. 运行脚本  
 在命令行输入 `node create_asset.js`，遇到需要输入参数的地方，按Enter键即可。   
-如果发行成功，会在 `asset.json` 看到TokenId，这个TokenId就是刚才发行的Token的标识符。   
-可以到 https://testexplorer.trustnote.org 测试网络浏览器输入asset地址查询到刚刚发行的Token。
+如果设置成功，会在 `asset.json` 看到TokenId，这个TokenId就是刚才设置的Token的标识符。   
+可以到 https://testexplorer.trustnote.org 测试网络浏览器输入asset地址查询到刚刚定义的Token的属性。
 
 
 ###    Token转帐

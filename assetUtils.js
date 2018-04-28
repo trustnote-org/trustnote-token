@@ -60,11 +60,11 @@ function transfer(asset,from_address,to_address,amount){
 
 /**
  * 		发行Token
- * @param {Number} cap 	   Token的发行总量
+ * @param {JSON} asset 	   Token的属性
  * @param {String} address Token发行人的钱包地址
  * @param {} cb 		   回调函数
  */
-function issueAsset(cap,address,cb){
+function issueAsset(asset,address,cb){
 	var composer = require('trustnote-common/composer.js');
 	var network = require('trustnote-common/network.js');
 	var callbacks = composer.getSavingCallbacks({
@@ -76,16 +76,6 @@ function issueAsset(cap,address,cb){
 			cb(json['unit']['unit']);
 		}
 	});
-	var asset = {
-		cap: cap,
-		is_private: false,
-		is_transferrable: true,
-		auto_destroy: false,
-		fixed_denominations: false,
-		issued_by_definer_only: true,
-		cosigned_by_definer: false,
-		spender_attested: false,
-	};
 	composer.composeAssetDefinitionJoint(address, asset, headlessWallet.signer, callbacks);
 }
 

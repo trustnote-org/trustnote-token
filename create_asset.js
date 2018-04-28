@@ -10,7 +10,17 @@ eventBus.on('headless_wallet_ready', function(){
 	headlessWallet.readSingleAddress(function(address){
 		setTimeout(function(){
 			// 开发者可以修改第一个参数来修改Token的总发行量。
-			assetUtils.issueAsset(100000,address,writeTokenId);
+			var asset = {
+				cap: 1000000000000,
+				is_private: false,
+				is_transferrable: true,
+				auto_destroy: false,
+				fixed_denominations: false,
+				issued_by_definer_only: true,
+				cosigned_by_definer: false,
+				spender_attested: false,
+			};
+			assetUtils.issueAsset(asset,address,writeTokenId);
 		},3000);
 	});
 });
