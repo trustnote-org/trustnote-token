@@ -75,7 +75,7 @@ node start.js
 
 ###   设置Token属性
 1. 设置参数  
- 用文本编辑器打开 `create_asset.js`，将第 13 行的 100000 修改为需要的发行量后保存。
+ 用文本编辑器打开 `create_asset.js`，将第 14 行的 1000000000000 修改为需要的发行量后保存。
 2. 运行脚本  
 在命令行输入 `node create_asset.js`，遇到需要输入参数的地方，按Enter键即可。   
 如果设置成功，会在 `asset.json` 看到TokenId，这个TokenId就是刚才设置的Token的标识符。   
