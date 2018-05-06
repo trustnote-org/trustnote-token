@@ -41,7 +41,7 @@ npm install
 
 ### 修改创世单元
 
-用文本编辑器打开 `trustnote-token/node_modules/trustnote-common` 目录下的 `constants.js` 文件, 将第10行中的 `rg1RzwKwnfRHjBojGol3gZaC5w7kR++rOR6O61JRsrQ=` 替换为 `MtzrZeOHHjqVZheuLylf0DX7zhp10nBsQX5e/+cA3PQ=` 后保存。
+用文本编辑器打开 `trustnote-token/node_modules/trustnote-common` 目录下的 `constants.js` 文件, 将第13行中的 `rg1RzwKwnfRHjBojGol3gZaC5w7kR++rOR6O61JRsrQ=` 替换为 `MtzrZeOHHjqVZheuLylf0DX7zhp10nBsQX5e/+cA3PQ=` 后保存。
 
 
 ### 启动服务同步节点
