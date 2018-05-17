@@ -1,7 +1,7 @@
 
 ### 一、下载钱包
 
-到TrustNote官网下载钱包，地址为https://trustnote.org/application.html，为了保证安全，一定不要从其他应用市场下载。
+到TrustNote官网下载钱包，地址为 https://trustnote.org/application.html ，为了保证安全，一定不要从其他应用市场下载。
 
 TrustNote钱包支持Android、iOS、Windows、Mac、Linux等不同的操作系统，为了便于扫码等操作，建议使用手机钱包。
 
