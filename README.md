@@ -90,7 +90,7 @@ node start.js
  在命令行输入 `node transfer_asset.js`，遇到需要输入参数的地方，按Enter键即可。代码里默认是转到到 `LDFEZ5TWE4XW4NUAUQHCMEPEQV7NAX6X` ，可以到https://testexplorer.trustnote.org/detail#LDFEZ5TWE4XW4NUAUQHCMEPEQV7NAX6X 测试网络浏览器查看转账的情况.
 
 ###    查询余额
-打开测试浏览器地址，https://testexplorer.trustnote.org ，在查询框中输入`asset.json`中的TokenId 即可进行查询。
+打开测试浏览器地址，https://testexplorer.trustnote.org ，在查询框中输入地址即可查询对应地址中的余额。
 
 
 
