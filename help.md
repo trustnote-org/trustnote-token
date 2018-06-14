@@ -53,7 +53,7 @@ TTT已经在如下交易所上线，请自行选择购买
 |coinbene|http://www.coinbene.com/|TTT-USDT|0.1%|80TTT|80TTT|
 |a.mom|https://www.a.mom/|TTT-ETH|0.1%|1TTT|5TTT|
 
-[Bit-Z购买攻略](https://mp.weixin.qq.com/s/OffU9ZqHaiAAfZyfCSRfbg)
+[Bit-Z购买攻略](https://mp.weixin.qq.com/s/OffU9ZqHaiAAfZyfCSRfbg){:target="_blank"}
 
 ### 三、查看发行的Token
 
